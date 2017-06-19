@@ -1,5 +1,4 @@
-from flask import Flask, render_template, \
-     request, url_for
+from flask import Flask, render_template
      
 app = Flask(__name__)
 
@@ -9,12 +8,12 @@ def home_page():
 	return render_template('home.html')
 
 
-@app.route('/SignUp')
-def showSignUp():
+# @app.route('/SignUp')
+# def showSignUp():
 
-	flash("You can't sign up yet, check back next week!")
+# 	flash("You can't sign up yet, check back next week!")
 
-	return render_template('signup.html')
+# 	return render_template('signup.html')
 
 # @app.route('/SignUp', methods=['POST'])
 # def attemptedSignIn():
