@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List App</title>
+ 
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/signup.css" rel="stylesheet">
+    <!-- <script src="http://code.jquery.com/jquery.js"></script>
+     -->
+  </head>
+ 
+  <body>
+ 
+    <div class="container">
+      <div class="header">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation" class="active"><a href="#">Sign Up</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">To Do List App</h3>
+      </div>
+ 
+      <div class="jumbotron">
+        <h1>Manage your Hackbright To Dos!</h1>
+        <form class="form-signin">
+        <label for="inputName" class="signupform">Name</label>
+        <input type="name" name="inputName" id="inputName" class="form-control" placeholder="Name" required autofocus>
+        <label for="inputEmail" class="signupform">Email address</label>
+        <input type="email" name="inputEmail" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
+         
+        <button id="btnSignUp" class="btn btn-lg btn-primary btn-block" type="button">Sign up</button>
+      </form>
+      </div>
+
+
+   <!--   working on adding an event handler, but using a flash message for now
+     <script>
+        "use strict";
+        var preventSignUp = document.getElementById("btnSignUp");
+        console.log("test")
+        function alertPopup(evt) {
+      evt.preventDefault();
+      
+      alert("You can't sign up yet, check back next week!");
+      }
+  
+      preventSignUp.addEventListener('SignUp',alertPopup);
+      </script> -->
+ 
+       
+ 
+      <footer class="footer">
+        <p>&copy; kateybatey 2017</p>
+      </footer>
+ 
+    </div>
+  </body>
+</html>
